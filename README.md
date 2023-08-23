@@ -13,6 +13,7 @@ The Random Recipe Generator is an Angular app that generates and displays random
 - [Technologies](#technologies)
 - [Contributing](#contributing)
 - [License](#license)
+- [Challanges and Solutions](#challenges-and-solutions)
 
 ## Description
 
