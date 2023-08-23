@@ -1,13 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>RecipeGenerator</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Random Recipe Generator</title>
 </head>
 <body>
   <app-root></app-root>
+
+  <header class="header">
+    <h1>Random Recipe Generator</h1>
+  </header>
+
+  <main class="container">
+    <div class="recipe">
+      <h2 class="recipe-title">Recipe Title</h2>
+      <img class="recipe-image" src="recipe-display.component.html" alt="Recipe Image">
+      <p class="recipe-instructions">Recipe Instructions...</p>
+    </div>
+    <button class="generate-button">Generate Random Recipe</button>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; vo1d.null 2023 | Random Recipe Generator</p>
+  </footer>
 </body>
 </html>

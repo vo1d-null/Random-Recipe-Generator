@@ -1,0 +1,29 @@
+.recipe {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.recipe-title {
+  font-size: 24px;
+}
+
+.recipe-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.recipe-instructions {
+  margin-top: 1rem;
+}
+
+.generate-button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

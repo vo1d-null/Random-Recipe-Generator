@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { RecipeGeneratorComponent } from './recipe-generator/recipe-generator.component';
 import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
+import { RecipeDisplayComponent } from './recipe-display/recipe-display.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RecipeGeneratorComponent,
-    RecipeDetailsComponent
+    RecipeDetailsComponent,
+    RecipeDisplayComponent
   ],
   imports: [
     BrowserModule

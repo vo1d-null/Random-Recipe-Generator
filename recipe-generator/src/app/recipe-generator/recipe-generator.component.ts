@@ -17,7 +17,7 @@ export class RecipeGeneratorComponent implements OnInit {
 
   getRandomRecipe() {
     const apiKey = '25a163b3e34748ebadc1d1ca85f7354d';
-    const apiUrl = `https://api.spoonacular.com/recipes/random?apiKey=${apiKey}`;
+    const apiUrl = `https://api.spoonacular.com/recipes/random?number=1&apiKey=${apiKey}`;
 
     this.http.get(apiUrl).subscribe((response: any) => {
       this.recipe = response.recipes[0]; // Store the recipe data
