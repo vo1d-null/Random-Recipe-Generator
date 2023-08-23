@@ -70,7 +70,7 @@ Contributions are welcome! If you have suggestions, bug reports, or feature requ
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Screenshots :camera_flash:
-
+![image](https://github.com/vo1d-null/Random-Recipe-Generator/assets/123015737/ead17947-539a-43c2-a5de-4830fd05416f)
 ![recipe-gen](https://github.com/vo1d-null/Random-Recipe-Generator/assets/123015737/7dc9ee55-9a1c-481c-9a59-a6562b96ab4f)
 
 ## Challenges and Solutions :hammer_and_wrench:
@@ -92,7 +92,7 @@ Passing data between parent and child components using property binding and the 
 - Defined `@Input` property in the child component.
 - Bound the parent component's recipe data using `[recipe]`.
 
-## Future Enhancements :bulb:
+## Future Ideas for Enhancements :bulb:
 
 - Improve styling for a more appealing user interface.
 - Implement a search feature to find specific recipes.
