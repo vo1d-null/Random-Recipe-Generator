@@ -1,6 +1,7 @@
 # Random Recipe Generator
+## Overview
 
-A simple Angular app that generates and displays random recipes fetched from the Spoonacular API.
+The Random Recipe Generator is an Angular app that generates and displays random recipes fetched from the Spoonacular API.
 
 ## Table of Contents
 
@@ -72,12 +73,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Screenshots
 
-[recipe-gen](https://github.com/vo1d-null/Random-Recipe-Generator/assets/123015737/91e3ce96-81aa-40a6-acc5-606dae8622f2)
-
-
-## Overview
-
-The Random Recipe Generator is an Angular app that fetches and displays random recipes from the Spoonacular API. This project was designed to provide a beginner-friendly introduction to Angular development while offering a practical way to explore new recipes.
+![recipe-gen](https://github.com/vo1d-null/Random-Recipe-Generator/assets/123015737/7dc9ee55-9a1c-481c-9a59-a6562b96ab4f)
 
 ## Challenges and Solutions
 
