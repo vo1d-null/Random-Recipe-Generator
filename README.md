@@ -70,7 +70,9 @@ Contributions are welcome! If you have suggestions, bug reports, or feature requ
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Screenshots :camera_flash:
-![image](https://github.com/vo1d-null/Random-Recipe-Generator/assets/123015737/ead17947-539a-43c2-a5de-4830fd05416f)
+
+![thumb2](https://github.com/vo1d-null/Random-Recipe-Generator/assets/123015737/b2d5811c-10b5-4316-bdeb-6aecabfc01b3)
+
 ![recipe-gen](https://github.com/vo1d-null/Random-Recipe-Generator/assets/123015737/7dc9ee55-9a1c-481c-9a59-a6562b96ab4f)
 
 ## Challenges and Solutions :hammer_and_wrench:
