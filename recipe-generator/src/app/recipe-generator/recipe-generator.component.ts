@@ -7,6 +7,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./recipe-generator.component.css']
 })
 export class RecipeGeneratorComponent implements OnInit {
+  recipe: any; // Define the recipe property
+
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
@@ -18,17 +20,7 @@ export class RecipeGeneratorComponent implements OnInit {
     const apiUrl = `https://api.spoonacular.com/recipes/random?apiKey=${apiKey}`;
 
     this.http.get(apiUrl).subscribe((response: any) => {
-      // Handle the response and store the recipe data
-      console.log(response);
+      this.recipe = response.recipes[0]; // Store the recipe data
     });
   }
 }
-  // Inside recipe-generator.component.ts
-getRandomRecipe() {
-  // ...
-
-  this.http.get(apiUrl).subscribe((response: any) => {
-    this.recipe = response.recipes[0];
-  });
-}
-
