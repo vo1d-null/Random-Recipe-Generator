@@ -59,7 +59,8 @@ ng serve
 
 - Angular
 - HttpClient module for API communication
-- HTML and CSS for the user interface
+- HTML and CSS for the user interface!
+
 
 ## Contributing
 
@@ -68,3 +69,43 @@ Contributions are welcome! If you have suggestions, bug reports, or feature requ
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Screenshots
+
+[recipe-gen](https://github.com/vo1d-null/Random-Recipe-Generator/assets/123015737/91e3ce96-81aa-40a6-acc5-606dae8622f2)
+
+
+## Overview
+
+The Random Recipe Generator is an Angular app that fetches and displays random recipes from the Spoonacular API. This project was designed to provide a beginner-friendly introduction to Angular development while offering a practical way to explore new recipes.
+
+## Challenges and Solutions
+
+### Challenge: API Integration and Data Display
+
+Integrating the Spoonacular API and dynamically displaying fetched recipe data on the user interface required utilizing Angular's `HttpClient` module and directives like `*ngIf`.
+
+**Solution:** 
+- Used `HttpClient` to make API requests.
+- Stored fetched recipe details in a component property (`recipe`).
+- Utilized `*ngIf` to conditionally render recipe details.
+
+### Challenge: Property Binding and Input Decorator
+
+Passing data between parent and child components using property binding and the `@Input` decorator required understanding component interaction.
+
+**Solution:**
+- Defined `@Input` property in the child component.
+- Bound the parent component's recipe data using `[recipe]`.
+
+## Future Enhancements
+
+- Improve styling for a more appealing user interface.
+- Implement a search feature to find specific recipes.
+- Include ingredient quantities in the recipe details.
+
+## Conclusion
+
+Creating the Random Recipe Generator has been a valuable learning experience, building skills in Angular development and API integration. Further improvements will make this app even more user-friendly and engaging.
+
+Feel free to explore the project [here](https://github.com/vo1d-null/Random-Recipe-Generator) for code and updates. For any queries or suggestions, don't hesitate to reach out. Happy exploring and coding!
