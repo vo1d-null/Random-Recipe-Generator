@@ -30,21 +30,30 @@ To get started with the Random Recipe Generator app, follow these steps:
 ### Installation
 
 1. Clone the repository to your local machine:
-``git clone https://github.com/vo1d-null/Random-Recipe-Generator.git
 
-2. Navigate to the project directory:
-``cd Random-Recipe-Generator
+``
+git clone https://github.com/vo1d-null/Random-Recipe-Generator.git
+``
 
-3. Install the project dependencies:
-``npm install
+3. Navigate to the project directory:
+``
+cd Random-Recipe-Generator
+``
+
+5. Install the project dependencies:
+``
+npm install
+``
 
 
 ### Usage
 
 1. Start the development server:
-``ng serve
+``
+ng serve
+``
 
-2. Open your web browser and go to `http://localhost:4200/` to view the app.
+3. Open your web browser and go to `http://localhost:4200/` to view the app.
 
 ## Technologies
 
